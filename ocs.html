@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="logo_section">
+      <img class="Logo" src="RH_Logo.png" />
+      <input type="checkbox" id="menu" />
+      <label for="menu"></label>
+      <nav>
+        <div class="menu-container">
+          <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="streaming.html"><li>Streaming</li></a>
+            <a href="ocs.html"><li>O.Cs</li></a>
+            <a href="extras.html"><li>Extras</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <h1 class="main_event">OCs</h1>
+    <h1>
+      OC: Own Character; Here, I am listing some of my own characters that I
+      have drawn.
+    </h1>
+    <h2>Ethan:</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            alt="An elvish character with a serious gaze with his arm covering most of the canvas"
+            src="Ethan_Angel.png"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="An elvish character with an arrow through his head, facing left and bleeding"
+            src="Ethan_Arrowhead.png"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="An up close portrait of an elvish character, holding a knife and blood splattered on his face and the knife"
+            src="Ethan_Blade.jpg"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="an elvish character in a 'playboy' bunny suit, adjusting it around his chest"
+            src="Ethan_Bunny.jpg"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="an elvish character facing left with text on the left side saying 'that boy went stone cold crazy' "
+            src="Ethan_Crazy.png"
+          />
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+    <h2>Raiden:</h2>
+    <div class="raiden_ocs">
+      <img
+        alt="a firbolg character front portrait gazing at the viewer"
+        src="Raiden_Front.jpg"
+      />
+      <img
+        alt="a firbolg character 3/4 view facing the viewer, just the face and hair covering what would be the neck"
+        src="Raiden_Headshot.png"
+      />
+    </div>
+    <h2>Leio:</h2>
+    <div class="leio_ocs">
+      <img
+        alt="a humanoid unicorn hybrid gazing over his shoulder at the viewer"
+        src="Leio.png"
+      />
+      <img
+        alt="the humanoid unicorn hybrid character's rear end"
+        src="Leio_Ass.jpg"
+      />
+    </div>
+    <footer>
+      <section class="linkies">
+        <img class="insta" src="instagram.png" />
+        <img class="bluesky" src="bluesky.png" />
+        <img class="twitch" src="twitch.png" />
+        <img class="linktree" src="linktree.png" />
+      </section>
+
+      <div>
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="streaming.html"><li>Streaming</li></a>
+          <a href="ocs.html"><li>O.Cs</li></a>
+          <a href="extras.html"><li>Extras</li></a>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        loop: true,
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

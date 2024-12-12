@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="logo_section">
+      <img class="Logo" src="RH_Logo.png" />
+      <input type="checkbox" id="menu" />
+      <label for="menu"></label>
+      <nav>
+        <div class="menu-container">
+          <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="streaming.html"><li>Streaming</li></a>
+            <a href="ocs.html"><li>O.Cs</li></a>
+            <a href="extras.html"><li>Extras</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <h1 class="main_event">Extras:</h1>
+
+    <h2>Commission Work:</h2>
+    <div class="commission_work">
+      <img
+        alt="a 3/4 view portrait done of a brown and navy coyote character"
+        src="Kyle.png"
+      />
+      <img
+        alt="two male characters standing side by side, the left being a head shorter than the right, the right having his arm around the other's waist"
+        src="Sunny_And_Dua.png"
+      />
+      <img
+        alt="an androgynous figure eyeing the viewer, portrait, nonbinary flag in background"
+        src="Enby.png"
+      />
+      <img
+        alt="a male portrait, blond male in knight attire with long hair and glasses"
+        src="Joni.png"
+      />
+    </div>
+    <h2>Anything Else:</h2>
+    <div class="anything_else">
+      <img
+        alt="Alucard, from Castlevania, in what appears to be a milkbath holding two roses against his chest"
+        src="Alucard.png"
+      />
+      <img
+        alt="A double headshot of a female and male character"
+        src="DTIYS.png"
+      />
+      <img alt="Vi from Arcane, headshot, looking at viewer" src="Vi.png" />
+      <img
+        alt="dark, silhouetted headshot of a dragon with the highlights being the only thing giving you detail"
+        src="Dragon.png"
+      />
+    </div>
+
+    <footer>
+      <section class="linkies">
+        <img class="insta" src="instagram.png" />
+        <img class="bluesky" src="bluesky.png" />
+        <img class="twitch" src="twitch.png" />
+        <img class="linktree" src="linktree.png" />
+      </section>
+
+      <div>
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="streaming.html"><li>Streaming</li></a>
+          <a href="ocs.html"><li>O.Cs</li></a>
+          <a href="extras.html"><li>Extras</li></a>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        loop: true,
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="logo_section">
+      <img class="Logo" src="RH_Logo.png" />
+      <input type="checkbox" id="menu" />
+      <label for="menu"></label>
+      <nav>
+        <div class="menu-container">
+          <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="streaming.html"><li>Streaming</li></a>
+            <a href="ocs.html"><li>O.Cs</li></a>
+            <a href="extras.html"><li>Extras</li></a>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <h1 class="main_event">Streaming</h1>
+    <h1>
+      PNGtuber: a set png images made in layers/alterations to be responsive to
+      the user's voice
+    </h1>
+    <h2>Raiden:</h2>
+    <div class="raiden_png">
+      <img
+        alt="Raiden, a firbolg character, 3/4 view facing the viewer"
+        src="MOUTH_CLOSED_NO_CONTROLLER.png"
+      />
+      <img
+        alt="Raiden, a firbolg character, 3/4 view facing the viewer while blinking"
+        src="MOUTH_CLOSED_NO_CONTROLLER_BLINK.png"
+      />
+      <img
+        alt="Raiden, a firbolg character, 3/4 view facing the viewer with mouth open"
+        src="MOUTH_OPEN_NO_CONTROLLER_.png"
+      />
+      <img
+        alt="Raiden, a firbolg character, 3/4 view facing the viewer with mouth open while blinking"
+        src="MOUTH_OPEN_NO_CONTROLLER_BLINK.png"
+      />
+    </div>
+
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img
+            alt="Raiden, a firbolg character, 3/4 view facing the viewer holding a controller in one position"
+            src="/Portfolio/MOUTH_CLOSED_CONTROLLER_1.png"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="Raiden, a firbolg character, 3/4 view facing the viewer holding a controller in a different position"
+            src="MOUTH_CLOSED_CONTROLLER_2.png"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="Raiden, a firbolg character, 3/4 view facing the viewer holding a controller in one position while blinking"
+            src="MOUTH_CLOSED_BLINK_CONTROLLER_1.png"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="Raiden, a firbolg character, 3/4 view facing the viewer holding a controller in a different position while blinking"
+            src="MOUTH_CLOSED_BLINK_CONTROLLER_2.png"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="Raiden, a firbolg character, 3/4 view facing the viewer holding a controller in one position with mouth open"
+            src="MOUTH_OPEN_CONTROLLER_1.png"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="Raiden, a firbolg character, 3/4 view facing the viewer holding a controller in a different position with mouth open"
+            src="MOUTH_OPEN_CONTROLLER_2.png"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="Raiden, a firbolg character, 3/4 view facing the viewer holding a controller in one position while blinking with mouth open"
+            src="MOUTH_OPEN_BLINK_CONTROLLER_1.png"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            alt="Raiden, a firbolg character, 3/4 view facing the viewer holding a controller in a different position while blinking with mouth open"
+            src="MOUTH_OPEN_BLINK_CONTROLLER_2.png"
+          />
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar
+      <div class="swiper-scrollbar"></div> -->
+    </div>
+
+    <h2>Rowan:</h2>
+    <div class="rowan_png">
+      <img
+        alt="A Headshot of a fox character, 3/4 view, mouth closed"
+        src="Rowan_Silent.png"
+      />
+      <img
+        alt="A Headshot of a fox character, 3/4 view, mouth closed, blinking"
+        src="Rowan_Silent_Blink.png"
+      />
+      <img
+        alt="A Headshot of a fox character, 3/4 view, mouth open"
+        src="Rowan_Talk.png"
+      />
+      <img
+        alt="A Headshot of a fox character, 3/4 view, mouth open, blinking"
+        src="Rowan_Talk_Blink.png"
+      />
+    </div>
+
+    <footer>
+      <section class="linkies">
+        <img class="insta" src="instagram.png" />
+        <img class="bluesky" src="bluesky.png" />
+        <img class="twitch" src="twitch.png" />
+        <img class="linktree" src="linktree.png" />
+      </section>
+      <div>
+        <ul>
+          <a href="index.html"><li>Home</li></a>
+          <a href="streaming.html"><li>Streaming</li></a>
+          <a href="ocs.html"><li>O.Cs</li></a>
+          <a href="extras.html"><li>Extras</li></a>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      const swiper = new Swiper(".swiper", {
+        // Optional parameters
+        loop: true,
+
+        // Navigation arrows
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
